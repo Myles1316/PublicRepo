@@ -1,5 +1,5 @@
 ## Dependencies
-This script requires 3-rd party libraries for getting and parsing HTTP content.
+This script requires 3-rd party libraries for getting and parsing HTTP content.\n
 1. [Requests](http://docs.python-requests.org/en/master/)
 2. [BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 3. [lxml](http://lxml.de/)
@@ -20,13 +20,13 @@ Type in command line for help on positional and optional arguments.
 python Mao_topic.py -h
 ```
 Optional parameters:
-1. -s FILE_NAME_OF_STOPWORDS type: __String__, provide your own list of stopwords
+1. -s FILE_NAME_OF_STOPWORDS type: __String__, provide your own list of stopwords\n
 2. -N SIZE_OF_WINDOWS type: __int__, value in range of [2, 10]. The larger, the
-  more connections each word will have.
-3. -d DAMPING_FACTOR type: __float__, value in range of (0, 1). Default is 0.85.
+  more connections each word will have.\n
+3. -d DAMPING_FACTOR type: __float__, value in range of (0, 1). Default is 0.85.\n
 4. -t THRESHOLD_OF_CONVERGE type: __float__. Default is 1e-4, the smaller, the
-  longer time to run.
-5. -M MAX_NUMBER_OF_ITERATIONS type: __int__. To stop iterations even if not converged.
+  longer time to run.\n
+5. -M MAX_NUMBER_OF_ITERATIONS type: __int__. To stop iterations even if not converged.\n
 6. -S If __flagged__, output will be single words, else output will be a mixture of
   single and collapsed topics.
 
@@ -44,5 +44,5 @@ Optional parameters:
 2. [Default English stopwords list](http://www.ranks.nl/stopwords)
 
 ## Contact
-[Myles Mao](https://www.linkedin.com/in/mylesmao/)
+[Myles Mao](https://www.linkedin.com/in/mylesmao/) \n
 [myles1316@gmail.com](mailto:myles1316@gmail.com)
